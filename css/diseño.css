@@ -29,6 +29,7 @@ header{
 }
 .menu ul li{
 	float: left;
+	margin-left: 0;
 }
 
 .menu ul li a{
@@ -38,14 +39,15 @@ header{
 	text-decoration: none;
 }
 
-.menu ul li a: hover{
+.menu ul li a:hover{
 	background: #9CA8A8;
+	text-decoration: underline; 
 
 
 }
 
 .main .articulos{
-	
+	width: 100%;
 	float: left;
 	margin-right: 1.5%;
 }
@@ -56,17 +58,126 @@ header{
 	margin-bottom: 20px;
 }
 
-footer{
+footer {
 	background: black;
 	color: white;
-	text-align: center;
 	clear: both;
 	padding: 10px 5px;
 }
 
 
-.titulo{
+.titulo{ 
 	font-size: 30px;
 	text-align: center;
 	color: red;
 }
+
+
+
+iframe{
+	height: 224px;
+	width: 445px;
+	
+}
+
+h1{
+	font-size: 24px;
+
+}
+
+
+span{
+	font-size: 13px;
+	text-align:center;
+	display: block;
+
+}
+
+
+#caja{
+	margin-left: 50px;
+	float: left;
+	margin-bottom: 20px;
+	border:  5px solid  red;
+	border-right-color: #E6E6E6;
+	border-top-color: #E6E6E6;
+	border-bottom-color: #E6E6E6;
+	padding: 10px;
+
+}
+
+.color{
+	color: #3E95DE;
+}
+ 
+
+.menus{
+	display: inline-block;
+
+}
+
+#Roxá{
+	margin-left: 180px;
+	margin-right: 190px;
+	padding: 2px;
+	border: 0.5px solid ;
+	border-left-color: white;
+	border-right-color: white;
+	border-bottom-color: #B9B6B6;
+	border-top-color: #B9B6B6;
+	border-spacing: 10px;
+	margin-bottom: 5px;	
+	color: #B9B6B6;
+}
+
+
+.caja1, .caja2, .caja3, .caja4, .caja5{
+	
+	background-clip: content-box;
+	background-repeat: no-repeat;
+	padding: 2px;
+	border: 0.5px solid #9C9C99;
+	margin: 15px auto 0;
+	background-size: 100% 100%;
+	border-radius:4px ;
+	width: 450px;
+	display: block;
+}
+
+
+
+.caja1{
+	background-image: url('../img/ra-museo-acropolis.png');
+	height: 230px;
+
+}
+
+
+.caja2{
+	height: 230px;
+}
+
+
+.caja3{
+	background-image: url('../img/wearable-mobile-world-congress.png');
+	height: 200px;
+}
+
+.caja4{
+	background-image: url('../img/bigdata-exposicion-big-bang-data.png');
+	height: 330px;
+}
+
+
+.caja5{
+	background-image: url('../img/robot-en-el-4FYN.png');
+	height: 260px;
+}
+
+a{
+	text-decoration:none;
+	color: #309CF7;
+}
+ li{
+ 	margin-left: 12px;
+ }

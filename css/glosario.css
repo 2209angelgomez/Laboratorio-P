@@ -38,14 +38,15 @@ header{
 	text-decoration: none;
 }
 
-.menu ul li a: hover{
+.menu ul li a:hover{
 	background: #9CA8A8;
+	text-decoration: underline; 
 
 
 }
 
 .main .articulos{
-	
+	width: 100%;
 	float: left;
 	margin-right: 1.5%;
 }
@@ -59,7 +60,6 @@ header{
 footer{
 	background: black;
 	color: white;
-	text-align: center;
 	clear: both;
 	padding: 10px 5px;
 }
@@ -70,3 +70,71 @@ footer{
 	text-align: center;
 	color: red;
 }
+
+
+
+h1{
+	font-size: 24px;
+
+}
+
+
+.texto{
+	font-size: 13px;
+}
+
+#caja1, #caja2, #caja3, #caja4, #caja5{
+	
+	background-clip: content-box;
+	width: 140px;
+	background-repeat: no-repeat;
+	float: left;
+	padding: 2px;
+	border: 0.5px solid #9C9C99 ;
+	background-size: contain;
+	margin-top: 20px;
+	margin: 20px 10px 0 10px ;
+	border-radius:4px ;
+
+
+}
+
+#caja1{
+	background-image: url('../img/glosario-ra.png');
+	height: 190px;
+
+}
+
+
+#caja2{
+	background-image: url('../img/glosario-gamificacion.png');
+	height: 95px;
+}
+
+
+#caja3{
+	background-image: url('../img/glosario-impresion-3d.png');
+	height: 150px;
+}
+
+#caja4{
+	background-image: url('../img/glosario-wearables.png');
+	height: 155px;
+}
+
+#caja5{
+	background-image: url('../img/glosario-big-data.png');
+	height: 105px;
+}
+
+.menus{
+	display: inline-block;
+}
+
+.sub{
+	color: red;
+	font-size: 26px;
+}
+
+
+
